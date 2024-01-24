@@ -9,6 +9,7 @@ function App() {
 
   const taskHandler = (e) => {
     e.preventDefault();
+    //this is working
     setTasks([...tasks, { task, date }]);
     setTask('');
     setDate('');
